@@ -1,8 +1,11 @@
+/* general settings */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* /general settings */
+/* parametri container */
 .container-city {
  width: 95vw;
  height: 90vh;
@@ -18,6 +21,8 @@
   position: relative;
   background-color: rgba(0, 0, 0, 0.5);
 }
+/* /parametri container */
+/* bg immagini */
 #roma{
   background-image: url(../img/roma.jpg);
 }
@@ -27,6 +32,9 @@
 #milano{
   background-image: url(../img/milano.jpg);
 }
+/* /bg immagini */
+
+/* parametri per il titolo Immagine */
 h1 {
   position: relative;
   top: 50%;
@@ -39,3 +47,4 @@ h1 {
   text-transform: capitalize;
   text-shadow: 2px 3px black;
 }
+/* /parametri per il titolo Immagine */
